@@ -1,0 +1,109 @@
+html{
+    margin:0;
+    min-height:100%;
+}
+*{
+    font-family: Montserrat;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration-line:none;
+    color: inherit;
+}
+body{
+    background-color: #c0d5f1;
+}
+
+.container{
+    margin:auto;
+    display:grid;
+    width: 90vw;
+    height: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    grid-template-columns: 30vh;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    /* border: 2px solid yellow; */
+}
+.box{
+    background: #ffffff;
+}
+.content{
+    grid-area: main;
+    color: rgb(38, 38, 38);
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+/* ======== Posts ======== */
+#nestedGrid{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap:130%;
+    justify-content: center;
+    grid-template-areas: 
+    "post1 post2 post3"
+    "post4 post5 post6";
+}
+
+
+/* PC Screens */
+@media screen and (min-width:1140px) and (max-width:1920px){
+    .container{
+        /* border: 2px solid green; */
+    }
+    .container3{display:none;}
+}
+
+/* Tablet Screens */
+@media (min-width:768px) and (max-width:1139px){
+    .container{
+        /* border: 2px solid blue; */
+    }
+    #nestedGrid{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-row-gap:120%;
+        justify-content: center;
+    }
+    .container3{display:none;}
+}
+
+/* Mobile Screens */
+@media (max-width:767px){
+    .container{
+        margin:auto;
+        display:grid;
+        width: 90vw;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+        /* border: 2px solid red; */
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+        /* border: 5px solid aquamarine; */
+    }
+    #nestedGrid{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        grid-row-gap:120%;
+        justify-content: center;
+    }
+    .sidebar{display:none;}
+}

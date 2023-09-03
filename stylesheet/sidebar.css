@@ -1,0 +1,23 @@
+.sidebar{
+    grid-area: sd;
+    border-right: solid rgb(221, 221, 221) 1px;
+}
+
+.sb{
+    padding: 50px 40px;
+}
+
+.category{
+    line-height: 32px;
+    padding: 0px 50px;
+}
+
+.sb a{
+    color: rgb(38, 38, 38);
+}
+
+.category a{
+    color: rgb(38, 38, 38);
+}
+
+/* ======== mobile sidebar ======== */

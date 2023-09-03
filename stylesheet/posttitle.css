@@ -1,0 +1,41 @@
+.postTitle{
+    font-size:21px;
+    color: rgb(38, 38, 38);
+    /* line-height: 2.2em; */
+    padding: 35px 60px;
+}
+.postnavbar{
+    display:flex;
+    font-size:16px;
+    word-spacing : 5px;
+    color: rgb(160, 160, 160);
+    /* line-height: 2.2em; */
+    padding: 0px 60px;
+    margin-top: -45px;
+}
+.timestamp {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 34px;
+    padding-left: 18px;
+}
+.profilebox{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.division-line {
+    border-top: solid rgb(221, 221, 221) 1px;
+    margin:auto;
+    margin-top: 20px;
+    width: 92%;
+  }

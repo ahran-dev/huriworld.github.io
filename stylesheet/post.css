@@ -1,0 +1,62 @@
+#pic{
+    padding-bottom: 113%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+.img-caption{
+    margin: auto;
+    width: 49%;
+    margin-top: 10px;
+    color:rgb(170, 170, 170) ;
+    font:caption;
+    font-family: Montserrat;
+    font-size: 14;
+}
+.post{
+    margin: auto;
+    margin-top: 90px;
+    width: 85%;
+    /* padding: 0px 110px; */
+    /* line-height:26px; */
+}
+.posttext{
+    margin-bottom: 180px;
+}
+.post h1{
+    font-size: 32px;
+    font-weight: bold;
+    line-height:26px;
+}
+
+.post h2{
+    font-size: 26px;
+    font-weight: bold;
+    line-height:26px;
+}
+
+.post h3{
+    font-size: 19px;
+    font-weight: bold;
+    line-height:26px;
+}
+
+.post p{
+    font-size: 16px;
+    line-height:26px;
+    color: rgb(38, 38, 38);
+}
+
+.post blockquote{
+    font-size: 16px;
+    line-height:26px;
+    color: rgb(38, 38, 38);
+}
+.post a{
+    font-size: 16px;
+    font-style: italic;
+    line-height:26px;
+}

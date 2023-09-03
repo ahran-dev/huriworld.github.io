@@ -1,0 +1,11 @@
+@import url("../../stylesheet/header.css");
+@import url("../../stylesheet/sidebar.css");
+@import url("../../stylesheet/posttitle.css");
+@import url("../../stylesheet/post.css");
+@import url("../../stylesheet/author.css");
+@import url("../../stylesheet/footer.css");
+@import url("../../stylesheet/base-post.css");
+
+#pic{
+    background-image:url(../../img/kirby.jpg);
+}

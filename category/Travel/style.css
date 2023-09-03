@@ -1,0 +1,11 @@
+@import url("../../stylesheet/header.css");
+@import url("../../stylesheet/sidebar.css");
+@import url("../../stylesheet/footer.css");
+@import url("../../stylesheet/styleedit.css");
+@import url("../../stylesheet/style2edit-category.css");
+@import url("../../stylesheet/base-category.css");
+
+/* ======== Post photos ======== */
+#one{
+    background-image:url(../../img/ocean.jpg);
+}

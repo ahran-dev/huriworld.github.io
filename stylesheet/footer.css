@@ -1,0 +1,7 @@
+.footer{
+    grid-area: ft;
+    text-align: center;
+    padding: 30px;
+    color: pink;
+    border-top: solid rgb(221, 221, 221) 1px;
+}
